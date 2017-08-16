@@ -18,8 +18,8 @@ document.onkeypress = function (event) {
     } else {
         guessesLeft--;
         if (guessesLeft === 0) {
-            console.log("lost game", losses);
             losses++;
+            console.log("lost game", losses);
             guessesLeft = 9;
             generate = getRandomArbitrary(96, 123);
         }
