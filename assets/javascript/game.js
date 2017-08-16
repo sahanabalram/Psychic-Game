@@ -24,4 +24,8 @@ document.onkeypress = function (event) {
             generate = getRandomArbitrary(96, 123);
         }
     }
+    document.querySelector("#wins").innerHTML= wins;
+    document.querySelector("#losses").innerHTML= losses;
+    document.querySelector("#guesses-left").innerHTML= document.guessesLeft;
+    document.querySelector("#your-guess-so-far").innerHTML= wins;
 };
