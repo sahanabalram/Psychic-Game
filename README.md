@@ -1,5 +1,5 @@
 # Psychic-Game
-An alaphbet guess game developed using JavaScript
+An alphabet guess game developed using JavaScript
 
 ## Link to the Deployed webpage:
  https://sahanabalram.github.io/Psychic-Game/
